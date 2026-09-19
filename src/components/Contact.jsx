@@ -307,7 +307,7 @@ Submitted from: Portfolio Contact Form`;
       <div className="relative z-10 w-full flex justify-end items-end">
         <div
           data-aos="fade-up"
-          className="bg-[#ff2a2a] w-full md:w-[85%] lg:w-[75%] p-8 md:p-14 lg:p-16 text-white flex flex-col justify-between shadow-2xl"
+          className="bg-[#ff2a2a] w-full md:w-[85%] lg:w-[75%] p-6 sm:p-8 md:p-14 lg:p-16 text-white flex flex-col justify-between shadow-2xl"
         >
           {/* =====================================
               HEADER

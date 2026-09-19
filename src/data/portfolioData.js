@@ -365,7 +365,7 @@ export const projects = [
       "AWS",
     ],
     links: {
-      github: "https://github.com/ersamirsingh/UrbanPiper",
+      github: "",
       demo: null,
     },
     isFlagship: true,
@@ -380,7 +380,7 @@ export const projects = [
     techTags: ["React", "Node.js", "MongoDB", "Express", "REST API"],
     links: {
       github: "",
-      frontendDemo: "https://karigar-frontend.onrender.com",
+      frontendDemo: "",
       backendApi: "https://karigar-zny2.onrender.com",
     },
     isFlagship: false,
@@ -394,7 +394,7 @@ export const projects = [
       "A full-stack web application that analyzes citizen feedback using Artificial Intelligence to classify sentiments as positive, negative, or neutral. Features a responsive React frontend, a Node.js backend, MongoDB for data storage, and n8n automation for workflow orchestration — enabling real-time insights and efficient feedback management.",
     techTags: ["React", "Node.js", "MongoDB", "n8n", "AI/ML", "REST API"],
     links: {
-      github: "#",
+      github: "",
     },
     isFlagship: false,
   },

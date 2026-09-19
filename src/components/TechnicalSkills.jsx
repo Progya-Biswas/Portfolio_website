@@ -80,14 +80,15 @@ const SkillPill = ({ skill }) => {
       className="
         relative
         flex items-center justify-center
-        min-w-[145px]
+        w-full sm:w-auto
+        min-w-[120px] sm:min-w-[145px]
         h-[46px]
-        px-6
+        px-4 sm:px-6
         rounded-full
         bg-gradient-to-r from-red-600 via-red-500 to-red-600
         text-white
         font-bold
-        text-sm
+        text-xs sm:text-sm
         tracking-wide
         shadow-[0_8px_20px_rgba(255,42,42,0.25)]
         border border-red-400/30
@@ -101,7 +102,7 @@ const SkillPill = ({ skill }) => {
       <span
         className="
           absolute left-0 top-0
-          w-8 h-full
+          w-6 sm:w-8 h-full
           rounded-full
           bg-red-700/60
           border-r border-red-300/20
@@ -112,7 +113,7 @@ const SkillPill = ({ skill }) => {
       <span
         className="
           absolute right-0 top-0
-          w-8 h-full
+          w-6 sm:w-8 h-full
           rounded-full
           bg-red-700/60
           border-l border-red-300/20
@@ -211,7 +212,7 @@ const TechnicalSkills = () => {
         bg-[#0a0a0a]
         pt-24
         pb-28
-        px-6
+        px-4 sm:px-6
         md:px-12
         w-full
         relative
@@ -224,12 +225,12 @@ const TechnicalSkills = () => {
         className="
           absolute
           top-1/4
-          left-[-150px]
-          w-[450px]
-          h-[450px]
+          left-[-50px] md:left-[-150px]
+          w-[250px] md:w-[450px]
+          h-[250px] md:h-[450px]
           bg-red-600/10
           rounded-full
-          blur-[140px]
+          blur-[80px] md:blur-[140px]
           pointer-events-none
         "
       />
@@ -238,12 +239,12 @@ const TechnicalSkills = () => {
         className="
           absolute
           bottom-1/4
-          right-[-150px]
-          w-[450px]
-          h-[450px]
+          right-[-50px] md:right-[-150px]
+          w-[250px] md:w-[450px]
+          h-[250px] md:h-[450px]
           bg-red-600/10
           rounded-full
-          blur-[140px]
+          blur-[80px] md:blur-[140px]
           pointer-events-none
         "
       />

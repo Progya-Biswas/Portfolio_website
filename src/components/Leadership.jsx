@@ -144,13 +144,13 @@ const Leadership = () => {
       <div
         className="
           absolute
-          -top-40
-          -left-40
-          w-[500px]
-          h-[500px]
+          -top-20 md:-top-40
+          -left-20 md:-left-40
+          w-[300px] md:w-[500px]
+          h-[300px] md:h-[500px]
           bg-[#ff2a2a]/10
           rounded-full
-          blur-[150px]
+          blur-[100px] md:blur-[150px]
           pointer-events-none
         "
       />
@@ -159,13 +159,13 @@ const Leadership = () => {
       <div
         className="
           absolute
-          -bottom-40
-          -right-40
-          w-[500px]
-          h-[500px]
+          -bottom-20 md:-bottom-40
+          -right-20 md:-right-40
+          w-[300px] md:w-[500px]
+          h-[300px] md:h-[500px]
           bg-[#ff2a2a]/10
           rounded-full
-          blur-[150px]
+          blur-[100px] md:blur-[150px]
           pointer-events-none
         "
       />

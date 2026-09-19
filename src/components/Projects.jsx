@@ -61,12 +61,16 @@ const ProjectCard = ({ project, aosDelay }) => (
       {/* Action Buttons */}
       <div className="flex flex-wrap gap-3">
         {/* GitHub */}
-        {project.links.github && (
+        {project.links.github !== undefined && (
           <a 
-            href={project.links.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 text-white text-sm font-semibold hover:bg-white hover:text-black transition-all duration-300 group/btn"
+            href={project.links.github && project.links.github !== '#' ? project.links.github : '#'}
+            target={project.links.github && project.links.github !== '#' ? "_blank" : undefined}
+            rel={project.links.github && project.links.github !== '#' ? "noopener noreferrer" : undefined}
+            className={`flex items-center gap-2 px-4 py-2 rounded-full border border-white/20 text-sm font-semibold transition-all duration-300 ${
+              project.links.github && project.links.github !== '#'
+                ? 'bg-white/10 text-white hover:bg-white hover:text-black group/btn'
+                : 'bg-white/5 text-white/40 cursor-not-allowed'
+            }`}
           >
             <GitHubIcon />
             GitHub
@@ -91,12 +95,16 @@ const ProjectCard = ({ project, aosDelay }) => (
         )}
 
         {/* Frontend Demo (Karigar) */}
-        {project.links.frontendDemo && (
+        {project.links.frontendDemo !== undefined && (
           <a 
-            href={project.links.frontendDemo}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 px-4 py-2 rounded-full bg-[#ff2a2a] text-white text-sm font-semibold hover:bg-red-600 hover:shadow-[0_0_20px_rgba(255,42,42,0.4)] transition-all duration-300"
+            href={project.links.frontendDemo || '#'}
+            target={project.links.frontendDemo ? "_blank" : undefined}
+            rel={project.links.frontendDemo ? "noopener noreferrer" : undefined}
+            className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold transition-all duration-300 ${
+              project.links.frontendDemo
+                ? 'bg-[#ff2a2a] text-white hover:bg-red-600 hover:shadow-[0_0_20px_rgba(255,42,42,0.4)]'
+                : 'bg-white/5 text-white/40 border border-white/10 cursor-not-allowed'
+            }`}
           >
             <ExternalLinkIcon />
             Frontend Demo
@@ -104,12 +112,16 @@ const ProjectCard = ({ project, aosDelay }) => (
         )}
 
         {/* Backend API (Karigar) */}
-        {project.links.backendApi && (
+        {project.links.backendApi !== undefined && (
           <a 
-            href={project.links.backendApi}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 text-white text-sm font-semibold hover:bg-white/20 transition-all duration-300"
+            href={project.links.backendApi || '#'}
+            target={project.links.backendApi ? "_blank" : undefined}
+            rel={project.links.backendApi ? "noopener noreferrer" : undefined}
+            className={`flex items-center gap-2 px-4 py-2 rounded-full border border-white/20 text-sm font-semibold transition-all duration-300 ${
+              project.links.backendApi
+                ? 'bg-white/10 text-white hover:bg-white/20'
+                : 'bg-white/5 text-white/40 cursor-not-allowed'
+            }`}
           >
             <ExternalLinkIcon />
             Backend API
