@@ -292,8 +292,8 @@ const About = () => {
           ================================================= */}
 
           <p className="mb-12 max-w-3xl text-lg font-bold leading-relaxed text-white">
-            I'm <strong className="text-black">Progya Paromita Biswas</strong>,
-            a Computer Science Engineering student passionate about Artificial
+            I'm <strong className="text-black">Progya </strong>,
+            a Computer Engineering student passionate about Artificial
             Intelligence, Robotics, and Reinforcement Learning. I enjoy solving
             complex problems step by step, exploring intelligent systems, and
             continuously developing my technical and analytical skills.
