@@ -20,7 +20,9 @@ const skillCategories = [
   "skills": [
     "Autonomous Navigation",
     "OpenCV",
-    "Reinforcement Learning"
+    "Reinforcement Learning",
+    "Machine Learning",
+    "Deep Learning"
   ]
 },
   {
@@ -30,20 +32,11 @@ const skillCategories = [
     skills: [
       "Python",
       "C",
+      "C++",
+      "Java",
       "JavaScript",
       "HTML",
       "CSS"
-    ]
-  },
-  {
-    title: "DATA TOOLS",
-    description: "Using tools to analyze, organize and present data.",
-    icon: "▤",
-    skills: [
-      "MS Excel",
-      "Power BI",
-      "Data Visualization",
-      "Data Reporting"
     ]
   },
   {
