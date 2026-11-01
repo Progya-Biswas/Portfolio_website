@@ -1,8 +1,8 @@
-import React from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-import myImage from '../assets/about/my_photo.jpeg';
+import myImage from "../assets/about/my_photo.jpeg";
 
 /* =========================================================
    C ICON
@@ -33,7 +33,6 @@ const CIcon = () => (
     </span>
   </div>
 );
-
 
 /* =========================================================
    C++ ICON
@@ -75,7 +74,6 @@ const CppIcon = () => (
     </span>
   </div>
 );
-
 
 /* =========================================================
    JAVA ICON
@@ -137,7 +135,6 @@ const JavaIcon = () => (
   </div>
 );
 
-
 /* =========================================================
    PYTHON ICON
 ========================================================= */
@@ -174,7 +171,6 @@ const PythonIcon = () => (
   </div>
 );
 
-
 /* =========================================================
    MONGODB ICON
 ========================================================= */
@@ -182,11 +178,7 @@ const PythonIcon = () => (
 const MongoDBIcon = () => (
   <div className="flex flex-col items-center gap-3">
     <div className="flex h-24 w-24 items-center justify-center rounded-2xl bg-white shadow-xl transition-transform duration-300 hover:scale-105">
-      <svg
-        viewBox="0 0 128 128"
-        className="h-16 w-16"
-        aria-label="MongoDB"
-      >
+      <svg viewBox="0 0 128 128" className="h-16 w-16" aria-label="MongoDB">
         <path
           d="M64 10C61 24 57 30 50 38C42 47 39 57 39 68C39 87 50 102 64 112C78 102 89 87 89 68C89 57 86 47 78 38C71 30 67 24 64 10Z"
           fill="#47A248"
@@ -214,13 +206,11 @@ const MongoDBIcon = () => (
   </div>
 );
 
-
 /* =========================================================
    ABOUT COMPONENT
 ========================================================= */
 
 const About = () => {
-
   /* AOS INITIALIZATION */
 
   React.useEffect(() => {
@@ -231,30 +221,25 @@ const About = () => {
     });
   }, []);
 
-
   return (
     <section
       id="about"
       className="relative w-full overflow-hidden bg-[#ff2a2a] px-6 pt-20 pb-40 font-sans md:px-12"
     >
-
       {/* =====================================================
           MAIN CONTENT
       ===================================================== */}
 
       <div className="mx-auto flex max-w-6xl flex-col items-start gap-16 md:flex-row">
-
         {/* ===================================================
             LEFT SIDE — PROFILE IMAGE
         =================================================== */}
 
         <div className="mt-12 flex w-full shrink-0 flex-col items-center md:mt-0 md:w-[350px]">
-
           <div
             data-aos="zoom-in"
             className="relative flex w-full justify-center"
           >
-
             {/* LANYARD STRING */}
 
             <div className="absolute -top-32 left-1/2 z-0 h-40 w-3 -translate-x-1/2 bg-black shadow-inner" />
@@ -266,36 +251,26 @@ const About = () => {
             {/* PROFILE CARD */}
 
             <div className="relative z-20 w-full max-w-[280px] -rotate-3 rounded-2xl bg-gray-900 p-3 shadow-[0_20px_40px_rgba(0,0,0,0.4)] transition-transform duration-500 hover:rotate-0">
-
               {/* CARD CUTOUT */}
 
               <div className="absolute -top-3 left-1/2 flex h-6 w-16 -translate-x-1/2 items-center justify-center rounded-t-xl bg-gray-900">
-
                 <div className="h-2 w-8 rounded-full bg-black/30 shadow-inner" />
-
               </div>
-
 
               {/* =================================================
                   SHRUTI IMAGE
               ================================================= */}
 
               <div className="aspect-[3/4] w-full overflow-hidden rounded-xl border-2 border-transparent bg-gray-800">
-
                 <img
                   src={myImage}
                   alt="Shruti Mishra"
                   className="h-full w-full object-cover object-top"
                 />
-
               </div>
-
             </div>
-
           </div>
-
         </div>
-
 
         {/* ===================================================
             RIGHT SIDE — INTRO
@@ -306,38 +281,29 @@ const About = () => {
           data-aos-delay="200"
           className="relative z-20 mt-8 flex-1 text-white md:mt-0"
         >
-
           {/* HEADING */}
 
           <h2 className="mb-4 text-4xl font-black text-black md:text-5xl">
-            Hello!
+            Hi! 👋
           </h2>
-
 
           {/* =================================================
               SHRUTI INTRO
           ================================================= */}
 
           <p className="mb-12 max-w-3xl text-lg font-bold leading-relaxed text-white">
-
-            Hi, my name is{' '}
-            <strong className="text-black">
-              Progya Paromita Biswas
-            </strong>
-            , a Computer Science Engineering student passionate about Artificial Intelligence, 
-            Robotics, and Reinforcement Learning. I enjoy solving complex problems step by step, 
-            exploring intelligent systems, 
-            and continuously developing my technical and analytical skills.
-
+            I'm <strong className="text-black">Progya Paromita Biswas</strong>,
+            a Computer Science Engineering student passionate about Artificial
+            Intelligence, Robotics, and Reinforcement Learning. I enjoy solving
+            complex problems step by step, exploring intelligent systems, and
+            continuously developing my technical and analytical skills.
           </p>
-
 
           {/* =================================================
               PROGRAMMING LANGUAGES
           ================================================= */}
 
           <div className="flex flex-wrap items-start gap-5 sm:gap-6 md:gap-7">
-
             {/* C */}
 
             <div
@@ -347,7 +313,6 @@ const About = () => {
             >
               <CIcon />
             </div>
-
 
             {/* C++ */}
 
@@ -359,7 +324,6 @@ const About = () => {
               <CppIcon />
             </div>
 
-
             {/* JAVA */}
 
             <div
@@ -369,7 +333,6 @@ const About = () => {
             >
               <JavaIcon />
             </div>
-
 
             {/* PYTHON */}
 
@@ -381,7 +344,6 @@ const About = () => {
               <PythonIcon />
             </div>
 
-
             {/* MONGODB */}
 
             <div
@@ -391,51 +353,33 @@ const About = () => {
             >
               <MongoDBIcon />
             </div>
-
           </div>
-
         </div>
-
       </div>
-
 
       {/* =====================================================
           TORN PAPER DIVIDER
       ===================================================== */}
 
       <div className="pointer-events-none absolute bottom-0 left-0 z-30 w-full translate-y-1">
-
         <svg
           viewBox="0 0 1200 120"
           preserveAspectRatio="none"
           className="h-12 w-full fill-white md:h-20"
         >
-
-          <path
-            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C59.71,118.08,130.83,119.62,189.5,99.8,242.79,81.82,282.88,63.6,321.39,56.44Z"
-          />
-
+          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C59.71,118.08,130.83,119.62,189.5,99.8,242.79,81.82,282.88,63.6,321.39,56.44Z" />
         </svg>
-
       </div>
-
 
       {/* =====================================================
           TOP RIGHT STAR
       ===================================================== */}
 
       <div className="absolute right-10 top-10 animate-pulse text-black opacity-30 md:right-20">
-
-        <svg
-          className="h-16 w-16"
-          fill="currentColor"
-          viewBox="0 0 24 24"
-        >
+        <svg className="h-16 w-16" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 0l2.5 8.5L23 12l-8.5 2.5L12 23l-2.5-8.5L1 12l8.5-2.5z" />
         </svg>
-
       </div>
-
 
       {/* =====================================================
           BOTTOM LEFT STAR
@@ -443,19 +387,12 @@ const About = () => {
 
       <div
         className="absolute bottom-32 left-4 animate-pulse text-black opacity-30 md:left-20"
-        style={{ animationDelay: '1s' }}
+        style={{ animationDelay: "1s" }}
       >
-
-        <svg
-          className="h-20 w-20"
-          fill="currentColor"
-          viewBox="0 0 24 24"
-        >
+        <svg className="h-20 w-20" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 0l2.5 8.5L23 12l-8.5 2.5L12 23l-2.5-8.5L1 12l8.5-2.5z" />
         </svg>
-
       </div>
-
     </section>
   );
 };
