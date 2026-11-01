@@ -166,7 +166,7 @@ const Hero = () => {
                 data-aos-delay="600"
                 className="mt-4 sm:mt-6 max-w-xl text-lg sm:text-2xl md:text-3xl font-bold leading-tight text-white"
               >
-                BTECH Student &nbsp;|&nbsp; AI and Robotics Engineer
+                BTECH Computer Science Engineer &nbsp;|&nbsp; AI and Robotics Engineer
               </h2>
 
               {/* =================================================

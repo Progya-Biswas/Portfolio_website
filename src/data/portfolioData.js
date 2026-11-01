@@ -7,7 +7,7 @@ export const personalInfo = {
   name: "Progya Biswas",
   firstName: "Progya",
   brandName: "Progya Biswas",
-  title: "BTECH Student | AI and Robotics Engineer",
+  title: "BTECH Computer Science Engineer | AI and Robotics Engineer",
   location: "India",
   phone: "+91 9903545853",
   emails: {
@@ -27,7 +27,7 @@ export const socialLinks = {
 
 export const heroContent = {
   greeting: "Hello, I'm",
-  titleHighlight: "BTECH Student | AI and Robotics Engineer",
+  titleHighlight: "BTECH Computer Science Engineer | AI and Robotics Engineer",
   subtitle:
     "I’m passionate about technology, data and creative problem solving — building skills across programming, analytics and digital projects.",
   ctaPrimary: { text: "View My Work", href: "#projects" },
@@ -40,7 +40,7 @@ export const heroContent = {
 
 export const aboutContent = {
   heading: "Hello!",
-  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Progya Biswas</span>, a BTECH student with an interest in technology, data and problem-solving. I enjoy working on creative digital projects and continuously developing my technical and analytical skills.`,
+  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Progya Biswas</span>, a BTECH Computer Science Engineer with an interest in technology, data and problem-solving. I enjoy working on creative digital projects and continuously developing my technical and analytical skills.`,
   techStack: ["Python", "SQL", "MS Excel", "Power BI"],
 };
 
@@ -617,7 +617,7 @@ export const footerContent = {
     "Python · SQL · Power BI",
     "Creative Digital Projects",
   ],
-  credential: "BTECH Student",
+  credential: "BTECH Computer Science Engineer",
   copyright: `© ${new Date().getFullYear()} Progya Biswas | Built with React`,
 };
 
