@@ -152,9 +152,9 @@ const Hero = () => {
                 data-aos-delay="450"
                 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-[0.95] sm:leading-[0.9] tracking-[-0.05em] sm:tracking-[-0.06em] text-white break-words"
               >
-                Shruti
+                Progya
                 <br />
-                <span className="text-black">Mishra.</span>
+                <span className="text-white">Paromita Biswas.</span>
               </h1>
 
               {/* =================================================
@@ -166,7 +166,7 @@ const Hero = () => {
                 data-aos-delay="600"
                 className="mt-4 sm:mt-6 max-w-xl text-lg sm:text-2xl md:text-3xl font-bold leading-tight text-white"
               >
-                BCA Student &nbsp;|&nbsp; Aspiring Data Analyst
+                BTECH Student &nbsp;|&nbsp; AI and Robotics Engineer
               </h2>
 
               {/* =================================================
@@ -178,9 +178,9 @@ const Hero = () => {
                 data-aos-delay="750"
                 className="mt-4 sm:mt-5 max-w-lg text-xs sm:text-sm md:text-base font-medium leading-6 sm:leading-7 text-white/90"
               >
-                I’m passionate about technology, data and creative problem
-                solving — building skills across programming, analytics and
-                digital projects.
+                 I’m passionate about Artificial Intelligence, Robotics and Reinforcement Learning — 
+                 exploring intelligent systems, breaking complex problems into manageable steps, 
+                 and building innovative solutions.
               </p>
 
               {/* =================================================
@@ -214,8 +214,8 @@ const Hero = () => {
                 {/* DOWNLOAD RESUME */}
 
                 <a
-                  href="/Shruti_Mishra_Resume.pdf"
-                  download="Shruti_Mishra_Resume.pdf"
+                  href="/Progya_Biswas_Resume.pdf"
+                  download="Progya_Biswas_Resume.pdf"
                   className="w-full sm:w-auto text-center rounded-full border-2 border-black bg-black px-6 py-3 sm:px-7 sm:py-3.5 text-xs sm:text-sm md:text-base font-bold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-white hover:text-black"
                 >
                   Download Resume
@@ -236,7 +236,7 @@ const Hero = () => {
                 {/* LINKEDIN */}
 
                 <a
-                  href="https://www.linkedin.com/in/shruti-mishra-b61372335"
+                  href="https://www.linkedin.com/in/progya-paromita-biswas-440a96365/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-xs sm:text-sm font-semibold text-white underline-offset-4 transition-all duration-300 hover:text-black hover:underline"
@@ -247,7 +247,7 @@ const Hero = () => {
                 {/* GITHUB */}
 
                 <a
-                  href="https://github.com/mishrashruti22"
+                  href="https://github.com/Progya-Biswas"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-xs sm:text-sm font-semibold text-white underline-offset-4 transition-all duration-300 hover:text-black hover:underline"

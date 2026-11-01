@@ -4,30 +4,30 @@
 // ============================================================
 
 export const personalInfo = {
-  name: "Shruti Mishra",
-  firstName: "Shruti",
-  brandName: "Shruti Mishra",
-  title: "BCA Student | Aspiring Data Analyst",
+  name: "Progya Biswas",
+  firstName: "Progya",
+  brandName: "Progya Biswas",
+  title: "BTECH Student | AI and Robotics Engineer",
   location: "India",
-  phone: "+91 99396-08743",
+  phone: "+91 9903545853",
   emails: {
-    primary: "shrutimi2006@gmail.com",
-    secondary: "shrutimi2006@gmail.com",
+    primary: "progya.biswas@gmail.com",
+    secondary: "progya.biswas@gmail.com",
   },
   summary:
     "Passionate about technology, data and creative problem solving — building skills across programming, analytics and digital projects.",
-  resumeUrl: "/Shruti_Mishra_Resume.pdf",
+  resumeUrl: "/Progya_Biswas_Resume.pdf",
 };
 
 export const socialLinks = {
-  github: "https://github.com/mishrashruti22",
-  linkedin: "https://www.linkedin.com/in/shruti-mishra-b61372335",
+  github: "https://github.com/Progya-Biswas",
+  linkedin: "https://www.linkedin.com/in/progya-paromita-biswas-440a96365/",
   instagram: "https://instagram.com/",
 };
 
 export const heroContent = {
   greeting: "Hello, I'm",
-  titleHighlight: "BCA Student | Aspiring Data Analyst",
+  titleHighlight: "BTECH Student | AI and Robotics Engineer",
   subtitle:
     "I’m passionate about technology, data and creative problem solving — building skills across programming, analytics and digital projects.",
   ctaPrimary: { text: "View My Work", href: "#projects" },
@@ -35,44 +35,95 @@ export const heroContent = {
     text: "Contact Me",
     href: "#contact",
   },
-  ctaResume: { text: "Download Resume", href: "/Shruti_Mishra_Resume.pdf" },
+  ctaResume: { text: "Download Resume", href: "/Progya_Biswas_Resume.pdf" },
 };
 
 export const aboutContent = {
   heading: "Hello!",
-  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Shruti Mishra</span>, a BCA student with an interest in technology, data and problem-solving. I enjoy working on creative digital projects and continuously developing my technical and analytical skills.`,
+  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Progya Biswas</span>, a BTECH student with an interest in technology, data and problem-solving. I enjoy working on creative digital projects and continuously developing my technical and analytical skills.`,
   techStack: ["Python", "SQL", "MS Excel", "Power BI"],
 };
 
+
 export const skillsContent = {
-  badge: "My Process",
-  heading: "Here's how I turn ideas into real-world applications",
+  badge: "Engineering Domains",
+
+  heading: "Exploring the intersection of intelligence, machines & space.",
+
   description:
-    "I follow a structured, creative, and highly technical approach to turn ideas into robust full-stack applications.",
+    "Exploring robotics, artificial intelligence, and aerospace through autonomous systems, intelligent algorithms, and advanced engineering technologies.",
+
   cards: [
     {
       number: "01",
-      title: "Collect",
-      text: "Gather relevant data from reliable sources to understand the problem and define the right inputs.",
+      title: "ROBOTICS",
+      subtitle: "Building Autonomous Machines",
+      text:
+        "Developing robotic systems that perceive, understand, and interact with their environment through autonomous navigation, simulation, and computer vision.",
+
+      icon: "🤖",
+
+      skills: [
+        "ROS 2",
+        "Gazebo",
+        "RViz",
+        "SLAM",
+        "Nav2",
+        "OpenCV",
+        "Robot Kinematics"
+      ],
+
+      tag: "SENSING · NAVIGATION · CONTROL"
     },
+
     {
       number: "02",
-      title: "Clean",
-      text: "Transform raw, inconsistent data into accurate, structured, and analysis-ready datasets.",
+      title: "ARTIFICIAL INTELLIGENCE",
+      subtitle: "Creating Intelligent Systems",
+      text:
+        "Exploring machine intelligence through deep learning, reinforcement learning, computer vision, and AI-driven decision-making systems.",
+
+      icon: "🧠",
+
+      skills: [
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision",
+        "Reinforcement Learning",
+        "Generative AI",
+        "LangGraph",
+        "LLMs"
+      ],
+
+      tag: "LEARNING · REASONING · INTELLIGENCE"
     },
+
     {
       number: "03",
-      title: "Analyze",
-      text: "Explore the data to uncover patterns, trends, relationships, and meaningful insights.",
-    },
-    {
-      number: "04",
-      title: "Visualize",
-      text: "Turn insights into clear charts, dashboards, and compelling visual stories that support better decisions.",
-    },
+      title: "AEROSPACE",
+      subtitle: "Engineering Beyond Earth",
+      text:
+        "Exploring aerospace technologies through rocketry, flight systems, telemetry, embedded systems, and autonomous space applications.",
+
+      icon: "🚀",
+
+      skills: [
+        "Rocket Systems",
+        "Flight Dynamics",
+        "Telemetry",
+        "Embedded Systems",
+        "CanSat",
+        "Sensor Integration",
+        "Trajectory Analysis"
+      ],
+
+      tag: "FLIGHT · PROPULSION · EXPLORATION"
+    }
   ],
-  endText: "Ready to ship!",
+
+  endText: "Beyond the Horizon!"
 };
+
 
 // Technical Skills Data
 export const technicalSkills = {
@@ -118,220 +169,269 @@ export const technicalSkills = {
 
 // Achievements Data
 
-export const Achievements = {
-  badge: "MY ACHIEVEMENTS",
+// export const Achievements = {
+//   badge: "MY ACHIEVEMENTS",
 
-  heading: "Milestones, Recognition & Growth",
+//   heading: "Milestones, Recognition & Growth",
 
-  description:
-    "A collection of competitions, leadership experiences, sports achievements, and academic activities that have shaped my growth beyond the classroom.",
+//   description:
+//     "A collection of competitions, leadership experiences, sports achievements, and academic activities that have shaped my growth beyond the classroom.",
 
-  categories: [
-    {
-      title: "Competitions & Case Challenges",
+//   categories: [
+//     {
+//       title: "Competitions & Case Challenges",
 
-      description:
-        "Participated in competitive events that strengthened my problem-solving, analytical thinking, teamwork, and decision-making abilities.",
+//       description:
+//         "Participated in competitive events that strengthened my problem-solving, analytical thinking, teamwork, and decision-making abilities.",
 
-      stats: "Multiple Competitions",
+//       stats: "Multiple Competitions",
 
-      icon: "🏆",
+//       icon: "🏆",
 
-      images: [
-        "/achievements/case-craft.jpg",
-        "/achievements/pgdav-admania.jpg",
-        "/achievements/iitm-treasure-hunt.jpg"
-      ]
-    },
+//       images: [
+//         "/achievements/case-craft.jpg",
+//         "/achievements/pgdav-admania.jpg",
+//         "/achievements/iitm-treasure-hunt.jpg"
+//       ]
+//     },
 
-    {
-      title: "Sports & Teamwork",
+//     {
+//       title: "Sports & Teamwork",
 
-      description:
-        "Actively participated in college sports while developing teamwork, leadership, discipline, and a competitive mindset.",
+//       description:
+//         "Actively participated in college sports while developing teamwork, leadership, discipline, and a competitive mindset.",
 
-      stats: "Winner & Runner Up",
+//       stats: "Winner & Runner Up",
 
-      icon: "🏅",
+//       icon: "🏅",
 
-      images: [
-        "/achievements/sportify.jpg",
-        "/achievements/athleema.jpg"
-      ]
-    },
+//       images: [
+//         "/achievements/sportify.jpg",
+//         "/achievements/athleema.jpg"
+//       ]
+//     },
 
-    {
-      title: "Ideathons & Innovation",
+//     {
+//       title: "Ideathons & Innovation",
 
-      description:
-        "Explored innovative ideas through ideathons and technology-focused challenges, turning problems into practical solutions.",
+//       description:
+//         "Explored innovative ideas through ideathons and technology-focused challenges, turning problems into practical solutions.",
 
-      stats: "Innovation & Problem Solving",
+//       stats: "Innovation & Problem Solving",
 
-      icon: "💡",
+//       icon: "💡",
 
-      images: [
-        "/achievements/aravalli-ideathon.jpg",
-        "/achievements/jaypee-manthan.jpg"
-      ]
-    },
+//       images: [
+//         "/achievements/aravalli-ideathon.jpg",
+//         "/achievements/jaypee-manthan.jpg"
+//       ]
+//     },
 
-    {
-      title: "Leadership & Events",
+//     {
+//       title: "Leadership & Events",
 
-      description:
-        "Contributed to planning, coordinating, and managing college events while working with teams and handling responsibilities.",
+//       description:
+//         "Contributed to planning, coordinating, and managing college events while working with teams and handling responsibilities.",
 
-      stats: "Event Coordination",
+//       stats: "Event Coordination",
 
-      icon: "🎯",
+//       icon: "🎯",
 
-      images: [
-        "/achievements/event-coordination.jpg",
-        "/achievements/student-of-the-year.jpg",
-        "/achievements/asbic-conference.jpg"
-      ]
-    }
-  ]
-};
+//       images: [
+//         "/achievements/event-coordination.jpg",
+//         "/achievements/student-of-the-year.jpg",
+//         "/achievements/asbic-conference.jpg"
+//       ]
+//     }
+//   ]
+// };
 
-export const contentCreation = Achievements;
+// export const contentCreation = Achievements;
 
 
 
 // ================= LEADERSHIP =================
+
 export const leadershipList = [
   {
-    title: "ASBIC Conference",
+    title: "Sound Energy Harvesting System using Piezo Sensors",
+    duration: "January 2026 – February 2026",
     role: "Team Lead",
     badge: "TEAM LEAD",
+    organization: "2-Member Team",
     description:
-      "Led the team during the ASBIC Conference, coordinating responsibilities, communication, and execution to ensure smooth participation."
+      "Conceived the project idea and led a 2-member team to develop a piezoelectric energy harvesting system that converts ambient sound vibrations into usable electrical energy for low-power applications.",
+    link: "",
   },
   {
-    title: "Technocrats",
+    title: "Reinforcement Learning-Based Robot Navigation",
+    duration: "February 2026 – April 2026",
     role: "Team Lead",
     badge: "TEAM LEAD",
+    organization: "Robotics Lab, VIT Vellore",
     description:
-      "Led and coordinated team activities within Technocrats, managing collaboration and ensuring responsibilities were completed effectively."
+      "Led a 3-member research team under faculty guidance to develop a reinforcement learning-based multi-robot navigation system, coordinating research activities, technical implementation, and team collaboration.",
+    link: "YOUR_ROBOTICS_PROJECT_LINK_HERE",
   },
   {
-    title: "Webweave",
+    title: "CookBook Web Application",
+    duration: "February 2026 – April 2026",
     role: "Team Lead",
     badge: "TEAM LEAD",
+    organization: "4-Member Team",
     description:
-      "Coordinated the team throughout Webweave, facilitating task distribution, communication, and collaborative execution."
+      "Led a 4-member team in designing and developing a responsive recipe-sharing web application using ReactJS. Coordinated frontend development and backend integration while building interactive features for recipe sharing and community engagement.",
+    link: "YOUR_COOKBOOK_PROJECT_LINK_HERE",
   },
-  {
-    title: "IITM Treasure Hunt",
-    role: "Team Leader",
-    badge: "TEAM LEADER",
-    description:
-      "Led the team through the IITM Treasure Hunt, coordinating strategy, decision-making, and teamwork under time constraints."
-  },
-  {
-    title: "Aravalli Ideathon",
-    role: "Team Lead",
-    badge: "TEAM LEAD",
-    description:
-      "Led the team during the Aravalli Ideathon, coordinating ideas, responsibilities, and collaborative problem-solving."
-  }
 ];
 
+
 // ================= COORDINATION =================
-export const coordinationList = [
-  {
-    title: "Student of the Year 2025 & 2026",
-    role: "Event Coordinator",
-    badge: "EVENT COORDINATOR",
-    description:
-      "Coordinated event activities, participant communication, scheduling, and on-ground execution to ensure the event ran smoothly."
-  },
-  {
-    title: "Athleema 2025 & 2026",
-    role: "Event Coordinator",
-    badge: "EVENT COORDINATOR",
-    description:
-      "Coordinated sports event activities including Volleyball, Basketball, and Kabaddi, managing participants, schedules, team communication, and on-ground operations."
-  },
-  {
-    title: "ASBIC Conference 2025",
-    role: "Event Coordinator",
-    badge: "EVENT COORDINATOR",
-    description:
-      "Supported the coordination and execution of the ASBIC Conference by managing responsibilities, communication, and event activities."
-  },
-  {
-    title: "Ecobiz 2025",
-    role: "Event Coordinator",
-    badge: "EVENT COORDINATOR",
-    description:
-      "Coordinated event activities and team responsibilities while ensuring effective communication and smooth execution throughout the event."
-  },
-  {
-    title: "Hidden Quest",
-    role: "Event Coordinator",
-    badge: "EVENT COORDINATOR",
-    description:
-      "Coordinated team activities during Hidden Quest, managing responsibilities, communication, and on-ground execution to ensure smooth participation."
-  }
-];
+// export const coordinationList = [
+//   {
+//     title: "Student of the Year 2025 & 2026",
+//     role: "Event Coordinator",
+//     badge: "EVENT COORDINATOR",
+//     description:
+//       "Coordinated event activities, participant communication, scheduling, and on-ground execution to ensure the event ran smoothly."
+//   },
+//   {
+//     title: "Athleema 2025 & 2026",
+//     role: "Event Coordinator",
+//     badge: "EVENT COORDINATOR",
+//     description:
+//       "Coordinated sports event activities including Volleyball, Basketball, and Kabaddi, managing participants, schedules, team communication, and on-ground operations."
+//   },
+//   {
+//     title: "ASBIC Conference 2025",
+//     role: "Event Coordinator",
+//     badge: "EVENT COORDINATOR",
+//     description:
+//       "Supported the coordination and execution of the ASBIC Conference by managing responsibilities, communication, and event activities."
+//   },
+//   {
+//     title: "Ecobiz 2025",
+//     role: "Event Coordinator",
+//     badge: "EVENT COORDINATOR",
+//     description:
+//       "Coordinated event activities and team responsibilities while ensuring effective communication and smooth execution throughout the event."
+//   },
+//   {
+//     title: "Hidden Quest",
+//     role: "Event Coordinator",
+//     badge: "EVENT COORDINATOR",
+//     description:
+//       "Coordinated team activities during Hidden Quest, managing responsibilities, communication, and on-ground execution to ensure smooth participation."
+//   }
+// ];
 
 
 // Internships Data
-export const internshipsList = [
+export const researchProjectsList = [
   {
-    duration: "June 2026 – Present",
-    role: "Brand & Growth Associate Intern",
-    organization: "Appexigo Technologies",
+    duration: "May 2025 – Present",
+    role: "Research & Development Project",
+    organization:
+      "Comparative Analysis of Transfer Learning Models with Explainable AI for Nail Disease Classification",
     skills: [
-      "Brand Communication",
-      "Content Strategy",
-      "Social Media Management",
-      "Growth Marketing",
-      "Digital Marketing",
-    ],
-    tech: [
-      "Canva",
-      "Adobe Express",
-      "LinkedIn",
-      "Content Marketing",
-    ],
-  },
-  {
-    duration: "November 2025 – December 2025",
-    role: "Python Developer Intern",
-    organization: "Hexsoftwares",
-    skills: [
-      "Python Programming",
-      "Problem Solving",
-      "Application Development",
-      "Programming Fundamentals",
+      "Deep Learning",
+      "Transfer Learning",
+      "Medical Image Classification",
+      "Explainable AI",
+      "Model Evaluation",
+      "Bias Analysis",
     ],
     tech: [
       "Python",
-      "GitHub",
+      "PyTorch",
+      "ResNet-50",
+      "VGG16",
+      "DenseNet-121",
+      "ConvNeXt-Tiny",
+      "Vision Transformer",
+      "DINOv2",
+      "Grad-CAM",
+      "Attention Rollout",
     ],
+    description:
+      "Evaluated six pretrained architectures across frozen, partially fine-tuned, and fully fine-tuned strategies for 13-class nail disease classification using 1,008 images and grouped stratified 5-fold cross-validation. Achieved 88.1% accuracy and 0.857 Macro-F1 with fully fine-tuned DINOv2. Applied Grad-CAM and Attention Rollout for model interpretability and potential classification bias analysis.",
+    paperLink: "https://www.ijert.org/comparative-analysis-of-transfer-learning-models-with-explainable-ai-for-automated-nail-disease-classification-ijertv15is101250",
   },
   {
-    duration: "June 2025 – August 2025",
-    role: "E-mail Marketing Intern",
-    organization: "Soniak Organico Greens",
+    duration: "February 2026 – April 2026",
+    role: "Research Paper | Robotics Lab, VIT Vellore",
+    organization: "Reinforcement Learning-Based Multi-Robot Navigation",
     skills: [
-      "Email Campaign Management",
-      "Content Creation",
-      "Audience Engagement",
-      "Email Marketing",
-      "Digital Communication",
+      "Reinforcement Learning",
+      "Autonomous Navigation",
+      "Multi-Robot Systems",
+      "Sensor Fusion",
+      "Real-Time Communication",
     ],
     tech: [
-      "Email Marketing",
-      "Content Strategy",
-      "Digital Marketing",
+      "Python",
+      "ROS2",
+      "Gazebo",
+      "DQN",
+      "PPO",
+      "Jetson Nano",
+      "RPLiDAR",
+      "Waveshare Robot Chassis",
     ],
+    description:
+      "Implemented autonomous mobile robot navigation using DQN and PPO reinforcement learning. Integrated a Waveshare robot chassis, Jetson Nano, RPLiDAR, and camera modules with ROS2/Gazebo, designing the sensor fusion and real-time communication architecture.",
+    paperLink: "https://drive.google.com/drive/u/1/folders/1zQCSclO7UL6KF_BS09xibblT4YuwjUTI?usp=sharing",
+  },
+  {
+    duration: "August 2026 – Present",
+    role: "Research & Development Project",
+    organization: "Energy-Aware Parallel Computation of SHAP Explanations",
+    skills: [
+      "Explainable AI",
+      "Parallel Computing",
+      "Performance Benchmarking",
+      "Energy Efficiency",
+      "CPU Scheduling",
+      "Experimental Analysis",
+    ],
+    tech: [
+      "Python",
+      "SHAP",
+      "CodeCarbon",
+      "Multiprocessing",
+      "Threading",
+      "Joblib",
+      "Ray",
+      "XGBoost",
+      "Scikit-learn",
+    ],
+    description:
+      "Benchmarked Serial, Multiprocessing, Threading, Joblib, and Ray strategies for TreeSHAP and KernelSHAP, completing 972 runs across 324 configurations with CPU time and energy measured using CodeCarbon. Analyzed workload-dependent time-energy trade-offs across Random Forest, XGBoost, SVM-RBF, and Logistic Regression to generate time-optimal, energy-optimal, and balanced CPU scheduling recommendations.",
+    paperLink: "https://drive.google.com/drive/u/1/folders/1GyE6dWZVX0ie2az27glyGNOmpFrqjFbk",
+  },
+  {
+    duration: "January 2026 – Present",
+    role: "Research & Development Project",
+    organization: "Real-Time Distance Estimation using Monocular Vision",
+    skills: [
+      "Computer Vision",
+      "Monocular Depth Estimation",
+      "Object Distance Estimation",
+      "Real-Time Inference",
+      "Assistive Technology",
+    ],
+    tech: [
+      "Python",
+      "OpenCV",
+      "Deep Learning",
+      "Computer Vision",
+      "RGB Camera",
+    ],
+    description:
+      "Developed a system that estimates object distance in real time from a single RGB camera using monocular depth and distance estimation algorithms. Optimized the inference pipeline for real-time performance. Research paper submitted to IEEE ICAITPR 2026 and currently under review.",
+    paperLink: "https://drive.google.com/drive/u/1/folders/1unpyNidT2Zs83YNTc_CkUhb8Z95O7TME",
   },
 ];
-
 // Soft Skills Data
 export const softSkillsList = [
   { name: "Leadership", icon: "👑", desc: "Guiding teams, managing tasks, and driving project completion with shared vision." },
@@ -344,106 +444,171 @@ export const softSkillsList = [
   { name: "Time Management", icon: "⏰", desc: "Balancing BCA studies, event hosting, and developing robust platforms." }
 ];
 
+
 export const projects = [
   {
-    id: "foodmesh",
+    id: "robot-navigation",
     number: "01",
-    badge: "🚀 Flagship Project",
-    title: "FoodMesh",
+    badge: "🚀 Research Project",
+    title: "Reinforcement Learning-Based Multi-Robot Navigation",
     description:
-      "FoodMesh — An enterprise-grade multi-tenant restaurant management and food ordering SaaS platform inspired by UrbanPiper. It enables restaurants to manage multiple outlets, menus, inventory, customers, staff, and orders through a scalable architecture with secure authentication, role-based access control, and real-time operations. Built with React, Next.js, NestJS, PostgreSQL, Redis, Kafka, Elasticsearch, Docker, Kubernetes, and AWS.",
+      "Developed an autonomous multi-robot navigation system using Deep Q-Networks (DQN) and Proximal Policy Optimization (PPO). Integrated Waveshare robot chassis, Jetson Nano, RPLiDAR, and camera modules with ROS 2 and Gazebo, implementing sensor fusion and real-time communication architecture.",
     techTags: [
-      "React",
-      "Next.js",
-      "NestJS",
-      "PostgreSQL",
-      "Redis",
-      "Kafka",
-      "Elasticsearch",
-      "Docker",
-      "Kubernetes",
-      "AWS",
+      "Python",
+      "Reinforcement Learning",
+      "DQN",
+      "PPO",
+      "ROS 2",
+      "Gazebo",
+      "Jetson Nano",
+      "RPLiDAR",
+      "Sensor Fusion"
+    ],
+    links: {
+      github: "https://github.com/Progya-Biswas/Autonomous-Navigation-of-Robot-using-Reinforcement-Learning",
+      demo: null,
+    },
+    isFlagship: true,
+  },
+
+  {
+    id: "HorizonEye",
+    number: "02",
+    badge: "🛰️ Aerospace Project",
+    title: "HorizonEye — Vision-Based Horizon Detection & Height Estimation",
+    description:
+      "Developed a camera-based flight perception system using sky-ground segmentation, Otsu thresholding, and horizon line fitting to estimate aircraft roll and horizon dip angle. Implemented camera and spherical-Earth geometry to estimate flight altitude using Python, OpenCV, and NumPy.",
+    techTags: [
+      "Python",
+      "OpenCV",
+      "NumPy",
+      "Computer Vision",
+      "Image Processing",
+      "Otsu Thresholding",
+      "Horizon Detection",
+      "Flight Perception"
+    ],
+    links: {
+      github: "https://github.com/Progya-Biswas/HorizonEye",
+      demo: null,
+    },
+    isFlagship: false,
+  },
+
+  {
+    id: "monocular-distance",
+    number: "03",
+    badge: "🔬 Research Project",
+    title: "Real-Time Distance Estimation using Monocular Vision",
+    description:
+      "Developed a real-time object distance estimation system using a single RGB camera and monocular depth estimation algorithms. Optimized the inference pipeline for real-time performance, with potential applications in autonomous systems and assistive technology for visually impaired individuals. Research paper submitted to IEEE ICAITPR 2026 and currently under review.",
+    techTags: [
+      "Python",
+      "Computer Vision",
+      "Monocular Vision",
+      "Depth Estimation",
+      "Image Processing",
+      "Real-Time Systems"
+    ],
+    links: {
+      github: "https://github.com/Progya-Biswas/Real-Time-Distance-Estimation-using-Monocular-Vision",
+      demo: null,
+    },
+    isFlagship: false,
+  },
+
+  {
+    id: "nail-disease-classification",
+    number: "04",
+    badge: "🧠 AI & Research",
+    title: "Comparative Analysis of Transfer Learning Models with Explainable AI for Automated Nail Disease Classification ",
+    description:
+      "Conducted a comparative study of six pretrained architectures—ResNet-50, VGG16, DenseNet-121, ConvNeXt-Tiny, ViT-B/16, and DINOv2—for 13-class nail disease classification using 1,008 images and grouped stratified 5-fold cross-validation. Achieved 88.1% accuracy and 0.857 Macro-F1 with fully fine-tuned DINOv2. Applied Grad-CAM and Attention Rollout for model interpretability and potential classification bias analysis.",
+    techTags: [
+      "Python",
+      "Deep Learning",
+      "Transfer Learning",
+      "DINOv2",
+      "ResNet-50",
+      "Vision Transformers",
+      "Grad-CAM",
+      "Explainable AI",
+      "Computer Vision"
+    ],
+    links: {
+      github: "https://github.com/Progya-Biswas/Analysis-of-Transfer-Learning-Models-with-Explainable-AI-for-Automated-Nail-Disease-Classification",
+      demo: null,
+    },
+    isFlagship: false,
+  },
+
+  {
+    id: "energy-aware-shap",
+    number: "05",
+    badge: "⚡ Research Project",
+    title: "Energy-Aware Parallel Computation of SHAP Explanations",
+    description:
+      "Benchmarked Serial, Multiprocessing, Threading, Joblib, and Ray execution strategies for TreeSHAP and KernelSHAP, completing 972 runs across 324 configurations. Measured CPU time and energy consumption using CodeCarbon and analyzed workload-dependent trade-offs across Random Forest, XGBoost, SVM-RBF, and Logistic Regression to develop time-optimal, energy-optimal, and balanced CPU scheduling recommendations.",
+    techTags: [
+      "Python",
+      "SHAP",
+      "Explainable AI",
+      "Multiprocessing",
+      "Threading",
+      "Joblib",
+      "Ray",
+      "XGBoost",
+      "CodeCarbon"
+    ],
+    links: {
+      github: "https://github.com/Progya-Biswas/Energy-Aware-Parallel-Computation-of-SHAP-Explanations",
+      demo: null,
+    },
+    isFlagship: false,
+  },
+
+  {
+    id: "sound-energy-harvesting",
+    number: "06",
+    badge: "🔋 Engineering Project",
+    title: "Sound Energy Harvesting System using Piezo Sensors",
+    description:
+      "Designed a piezoelectric energy harvesting system to convert ambient sound vibrations into usable electrical energy for low-power applications. Implemented energy storage and power optimization circuits to improve energy utilization and overall system efficiency.",
+    techTags: [
+      "Piezoelectric Sensors",
+      "Embedded Systems",
+      "Energy Harvesting",
+      "Circuit Design",
+      "Power Optimization",
+      "Energy Storage"
     ],
     links: {
       github: "",
       demo: null,
     },
-    isFlagship: true,
-  },
-  {
-    id: "karigar",
-    number: "02",
-    badge: null,
-    title: "Karigar",
-    description:
-      "A platform connecting local skilled workers with customers, featuring real-time search, worker profiles, and booking management with full database integration.",
-    techTags: ["React", "Node.js", "MongoDB", "Express", "REST API"],
-    links: {
-      github: "",
-      frontendDemo: "",
-      backendApi: "https://karigar-zny2.onrender.com",
-    },
-    isFlagship: false,
-  },
-  {
-    id: "sentiment-analysis",
-    number: "03",
-    badge: null,
-    title: "AI-Powered Sentiment Analysis",
-    description:
-      "A full-stack web application that analyzes citizen feedback using Artificial Intelligence to classify sentiments as positive, negative, or neutral. Features a responsive React frontend, a Node.js backend, MongoDB for data storage, and n8n automation for workflow orchestration — enabling real-time insights and efficient feedback management.",
-    techTags: ["React", "Node.js", "MongoDB", "n8n", "AI/ML", "REST API"],
-    links: {
-      github: "",
-    },
     isFlagship: false,
   },
 ];
 
+
 export const certificates = {
   featured: [
     {
-      name: "Oracle Cloud Infrastructure 2025",
-      issuer: "Oracle",
-      icon: "☁️",
-    },
-    {
-      name: "Programming in Java (94%)",
-      issuer: "NPTEL",
-      icon: "☕",
-    },
-    {
-      name: "C Programming & Assembly Language",
-      issuer: "NPTEL",
-      icon: "⚙️",
-    },
-    {
-      name: "Technology Job Simulation",
-      issuer: "Deloitte",
-      icon: "💼",
-    },
-    {
-      name: "Career Edge – IT Primer",
-      issuer: "TCS iON",
-      icon: "🎓",
-    },
-    {
-      name: "Fundamentals of BI & Analytics",
-      issuer: "Lumenore",
-      icon: "📊",
+      name: "Comparative Analysis of Transfer Learning Models with Explainable AI",
+      issuer: "IJERT",
+      year: "2026",
+      icon: "📄",
     },
   ],
-  viewAllUrl:
-    "https://drive.google.com/file/d/1ObdGWtVSx8SsfR4AcbCySSd9LFXcAs9f/view?usp=sharing",
 };
 
 export const education = {
-  degree: "BCA – Bachelor of Computer Applications",
+  degree: "BTECH - Bachelor of Technology",
   institution: "College",
-  cgpa: "8.35",
+  cgpa: "8.5",
   graduation: "2027",
   twelfth: "12th Science",
-  tenth: "10th CBSE",
+  tenth: "10th ICSE",
 };
 
 export const footerContent = {
@@ -452,13 +617,13 @@ export const footerContent = {
     "Python · SQL · Power BI",
     "Creative Digital Projects",
   ],
-  credential: "BCA Student",
-  copyright: `© ${new Date().getFullYear()} Shruti Mishra | Built with React`,
+  credential: "BTECH Student",
+  copyright: `© ${new Date().getFullYear()} Progya Biswas | Built with React`,
 };
 
 // Contact & Email Configuration
 export const contactConfig = {
-  recipientEmail: "shrutimi2006@gmail.com",
+  recipientEmail: "progya.biswas2004@gmail.com",
   web3formsAccessKey: import.meta.env.VITE_WEB3FORMS_ACCESS_KEY || "",
 };
 

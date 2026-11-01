@@ -21,7 +21,7 @@ const Contact = () => {
   const [status, setStatus] = useState('idle'); // 'idle' | 'sending' | 'success' | 'error'
   const [feedbackMessage, setFeedbackMessage] = useState('');
 
-  const myEmail = contactConfig?.recipientEmail || 'shrutimi2006@gmail.com';
+  const myEmail = contactConfig?.recipientEmail || 'progya.biswas2004@gmail.com';
 
   const { scrollYProgress } = useScroll({
     target: ref,

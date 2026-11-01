@@ -2,7 +2,7 @@ import React from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import myImage from '../assets/about/my image.png';
+import myImage from '../assets/about/my_photo.jpeg';
 
 /* =========================================================
    C ICON
@@ -322,11 +322,12 @@ const About = () => {
 
             Hi, my name is{' '}
             <strong className="text-black">
-              Shruti Mishra
+              Progya Paromita Biswas
             </strong>
-            , a BCA student with an interest in technology, data and
-            problem-solving. I enjoy working on creative digital projects and
-            continuously developing my technical and analytical skills.
+            , a Computer Science Engineering student passionate about Artificial Intelligence, 
+            Robotics, and Reinforcement Learning. I enjoy solving complex problems step by step, 
+            exploring intelligent systems, 
+            and continuously developing my technical and analytical skills.
 
           </p>
 

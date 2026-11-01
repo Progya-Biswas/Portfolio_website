@@ -2,18 +2,27 @@ import React from 'react';
 
 const skillCategories = [
   {
-    title: "DATA ANALYSIS",
-    description: "Turning data into meaningful insights and decisions.",
-    icon: "▥",
-    skills: [
-      "Python",
-      "SQL",
-      "MS Excel",
-      "Power BI",
-      "Data Analysis",
-      "Data Visualization"
-    ]
-  },
+  "title": "ROBOTICS & SIMULATION",
+  "description": "Designing, simulating, and developing autonomous robotic systems.",
+  "icon": "🤖",
+  "skills": [
+    "ROS 2",
+    "Gazebo",
+    "SLAM",
+    "Nav2",
+    "Sensor Integration",
+  ]
+},
+{
+  "title": "ARTIFICIAL INTELLIGENCE",
+  "description": "Building intelligent systems through AI, robotics, and autonomous technologies.",
+  "icon": "🧠",
+  "skills": [
+    "Autonomous Navigation",
+    "OpenCV",
+    "Reinforcement Learning"
+  ]
+},
   {
     title: "PROGRAMMING",
     description: "Building logic and solving problems with code.",
@@ -24,17 +33,6 @@ const skillCategories = [
       "JavaScript",
       "HTML",
       "CSS"
-    ]
-  },
-  {
-    title: "DATABASES",
-    description: "Working with structured data and database systems.",
-    icon: "◉",
-    skills: [
-      "MySQL",
-      "SQL",
-      "Database Management",
-      "DBMS"
     ]
   },
   {
@@ -306,8 +304,8 @@ const TechnicalSkills = () => {
               leading-relaxed
             "
           >
-            A data-focused technical skillset combining programming,
-            databases, analytics, visualization and problem-solving.
+           A technology-focused skillset centered on artificial intelligence, robotics, intelligent automation, 
+           and developing innovative solutions through programming and problem-solving.
           </p>
         </div>
 

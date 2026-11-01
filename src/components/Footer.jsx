@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Footer = () => {
-  const email = "shrutimi2006@gmail.com";
-  const linkedin = "https://www.linkedin.com/in/shruti-mishra-b61372335";
-  const github = "https://github.com/mishrashruti22";
+  const email = " progya.biswas2004@gmail.com";
+  const linkedin = "linkedin.com/in/progya-paromita-biswas-440a96365";
+  const github = "https://github.com/Progya-Biswas";
 
   return (
     <footer className="bg-[#111111] text-[#d4d4d4] py-16 px-6 md:px-12 w-full font-mono text-[10px] md:text-xs tracking-widest flex flex-col justify-between min-h-[50vh]">
@@ -20,7 +20,7 @@ const Footer = () => {
 
         {/* Center */}
         <div className="flex flex-col gap-1 md:items-center">
-          <p>BCA · Asian School of Business</p>
+          <p>BTECH · Vellore Institute of Technology</p>
 
           <a
             href="#projects"
@@ -40,7 +40,7 @@ const Footer = () => {
       {/* Middle Huge Text */}
       <div className="w-full flex justify-center items-center py-20 md:py-24 overflow-hidden">
         <h2 className="text-[18vw] md:text-[16vw] leading-none font-sans font-bold tracking-tighter lowercase select-none text-[#f4f4f4] w-full text-center">
-          shruti
+          progya
         </h2>
       </div>
 
@@ -57,7 +57,7 @@ const Footer = () => {
           </a>
 
           <p className="text-white/60 font-mono text-[9px] md:text-[10px]">
-            © 2026 Shruti Mishra | Built with React
+            © 2026 Progya Biswas | Built with React
           </p>
         </div>
 

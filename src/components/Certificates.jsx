@@ -1,57 +1,15 @@
-import React from 'react';
+import React from "react";
 
 /* =========================================================
-   SHRUTI'S CERTIFICATIONS
+   PROGYA'SCERTIFICATIONS
    ========================================================= */
 
 const certificates = [
   {
-    name: "AI Engineer Course",
-    issuer: "Udemy",
-    year: "2025",
-    icon: "🤖",
-  },
-  {
-    name: "Full-Stack Development",
-    issuer: "DUCAT",
-    year: "2025",
-    icon: "💻",
-  },
-  {
-    name: "Data Science and Analytics",
-    issuer: "HP LIFE",
-    year: "2025",
-    icon: "📊",
-  },
-  {
-    name: "Introduction to Cyber Security Awareness",
-    issuer: "HP LIFE",
-    year: "2025",
-    icon: "🔐",
-  },
-  {
-    name: "AI for Beginners",
-    issuer: "HP LIFE",
-    year: "2025",
-    icon: "🧠",
-  },
-  {
-    name: "Digital Productivity with AI",
-    issuer: "HP LIFE",
-    year: "2025",
-    icon: "⚡",
-  },
-  {
-    name: "MS Excel Course",
-    issuer: "Simplilearn",
+    name: "Comparative Analysis of Transfer Learning Models with Explainable AI",
+    issuer: "IJERT",
     year: "2026",
-    icon: "📈",
-  },
-  {
-    name: "Power BI Course",
-    issuer: "Simplilearn",
-    year: "2026",
-    icon: "📊",
+    icon: "📄"
   },
 ];
 
@@ -81,7 +39,6 @@ const CertificateCard = ({ cert, index }) => (
     "
   >
     <div className="flex items-start gap-4">
-
       {/* Certificate Icon */}
       <div
         className="
@@ -105,7 +62,6 @@ const CertificateCard = ({ cert, index }) => (
 
       {/* Certificate Details */}
       <div className="flex-1 min-w-0">
-
         <h3
           className="
             text-white
@@ -120,7 +76,6 @@ const CertificateCard = ({ cert, index }) => (
         </h3>
 
         <div className="flex items-center gap-2 flex-wrap">
-
           <span
             className="
               text-white/60
@@ -133,9 +88,7 @@ const CertificateCard = ({ cert, index }) => (
             {cert.issuer}
           </span>
 
-          <span className="text-white/30 text-xs">
-            •
-          </span>
+          <span className="text-white/30 text-xs">•</span>
 
           <span
             className="
@@ -146,11 +99,8 @@ const CertificateCard = ({ cert, index }) => (
           >
             {cert.year}
           </span>
-
         </div>
-
       </div>
-
     </div>
   </div>
 );
@@ -175,7 +125,6 @@ const Certificates = () => {
         font-sans
       "
     >
-
       {/* =====================================================
           TORN PAPER DIVIDER
           ===================================================== */}
@@ -207,16 +156,11 @@ const Certificates = () => {
           ===================================================== */}
 
       <div className="max-w-6xl mx-auto relative z-20">
-
         {/* ===================================================
             HEADER
             =================================================== */}
 
-        <div
-          data-aos="fade-up"
-          className="mb-12 md:mb-16 text-center"
-        >
-
+        <div data-aos="fade-up" className="mb-12 md:mb-16 text-center">
           <h2
             className="
               text-4xl
@@ -240,10 +184,9 @@ const Certificates = () => {
               mx-auto
             "
           >
-            Courses and certifications that reflect my continuous
-            learning across technology, data, AI and cybersecurity.
+            Courses and certifications that reflect my continuous learning
+            across technology, data, AI and cybersecurity.
           </p>
-
         </div>
 
         {/* ===================================================
@@ -260,15 +203,9 @@ const Certificates = () => {
             md:gap-6
           "
         >
-
           {certificates.map((cert, index) => (
-            <CertificateCard
-              key={cert.name}
-              cert={cert}
-              index={index}
-            />
+            <CertificateCard key={cert.name} cert={cert} index={index} />
           ))}
-
         </div>
 
         {/* ===================================================
@@ -280,7 +217,6 @@ const Certificates = () => {
           data-aos-delay="900"
           className="flex justify-center mt-12"
         >
-
           <div
             className="
               bg-white
@@ -296,11 +232,9 @@ const Certificates = () => {
               duration-300
             "
           >
-            8 Courses & Certifications
+             <a href = "https://drive.google.com/drive/u/1/folders/1ULKiA9SEyG_IMVBONrds4PKqVe0u7IYD">View all Certifications</a>
           </div>
-
         </div>
-
       </div>
 
       {/* =====================================================
@@ -318,11 +252,7 @@ const Certificates = () => {
           animate-pulse
         "
       >
-        <svg
-          className="w-12 h-12"
-          fill="currentColor"
-          viewBox="0 0 24 24"
-        >
+        <svg className="w-12 h-12" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 0l2.5 8.5L23 12l-8.5 2.5L12 23l-2.5-8.5L1 12l8.5-2.5z" />
         </svg>
       </div>
@@ -343,15 +273,10 @@ const Certificates = () => {
         "
         style={{ animationDelay: "1.5s" }}
       >
-        <svg
-          className="w-14 h-14"
-          fill="currentColor"
-          viewBox="0 0 24 24"
-        >
+        <svg className="w-14 h-14" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 0l2.5 8.5L23 12l-8.5 2.5L12 23l-2.5-8.5L1 12l8.5-2.5z" />
         </svg>
       </div>
-
     </section>
   );
 };

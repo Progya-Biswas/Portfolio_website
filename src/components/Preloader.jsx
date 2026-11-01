@@ -41,7 +41,7 @@ const Preloader = () => {
             }}
             className="text-white font-black tracking-[-0.05em] text-5xl sm:text-6xl md:text-8xl"
           >
-            Shruti Mishra
+            Progya Paromita Biswas
             <span className="text-black">.</span>
           </motion.h1>
         </motion.div>
