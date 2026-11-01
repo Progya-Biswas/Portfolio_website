@@ -293,7 +293,7 @@ const About = () => {
 
           <p className="mb-12 max-w-3xl text-lg font-bold leading-relaxed text-white">
             I'm <strong className="text-black">Progya </strong>,
-            a Computer Engineering student passionate about Artificial
+            a Computer Engineering student who is passionate about Artificial
             Intelligence, Robotics, and Reinforcement Learning. I enjoy solving
             complex problems step by step, exploring intelligent systems, and
             continuously developing my technical and analytical skills.
