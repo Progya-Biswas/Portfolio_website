@@ -436,7 +436,7 @@ export const researchProjectsList = [
 export const softSkillsList = [
   { name: "Leadership", icon: "👑", desc: "Guiding teams, managing tasks, and driving project completion with shared vision." },
   { name: "Public Speaking", icon: "🎤", desc: "Confident stage presence, anchoring summits, and delivering articulate technical ideas." },
-  { name: "Team Collaboration", icon: "🤝", desc: "Collaborating across fields, building racing carts, and engineering code in sync." },
+  { name: "Team Collaboration", icon: "🤝", desc: "Collaborating across fields and engineering code in sync." },
   { name: "Communication", icon: "💬", desc: "Clear, concise, and structured interactions in both business and technical contexts." },
   { name: "Problem Solving", icon: "🧩", desc: "Breaking down complex engineering tasks into clean, logical, and modular pieces." },
   { name: "Adaptability", icon: "🌟", desc: "Quick to pick up new frameworks or automation tools." },
