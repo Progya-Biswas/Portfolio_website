@@ -105,8 +105,7 @@ npm run preview
 ```
 
 ## 🌐 Live Demo
-
-[Visit My Portfolio]([YOUR_PORTFOLIO_URL](https://portfolio-website-sooty-theta-14.vercel.app/))
+https://portfolio-website-sooty-theta-14.vercel.app/
 
 
 ---
