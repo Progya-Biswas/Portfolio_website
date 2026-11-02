@@ -67,7 +67,7 @@ Portfolio/
 1. Clone the repository:
 
    ```bash
-   git clone <[YOUR_REPOSITORY_URL](https://github.com/Progya-Biswas/Portfolio_website)>
+   git clone https://github.com/Progya-Biswas/Portfolio_website
    ```
 
 2. Navigate to the project directory:
