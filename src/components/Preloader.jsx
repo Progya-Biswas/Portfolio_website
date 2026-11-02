@@ -24,7 +24,7 @@ const Preloader = () => {
             duration: 1.1,
             ease: [0.76, 0, 0.24, 1],
           }}
-          className="fixed inset-0 z-[100000] w-full h-screen bg-[#ff2a2a] flex items-center justify-center"
+          className="fixed inset-0 z-[100000] w-full h-screen bg-blue-900 flex items-center justify-center"
         >
           <motion.h1
             initial={{

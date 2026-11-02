@@ -7,7 +7,7 @@ export const personalInfo = {
   name: "Progya Biswas",
   firstName: "Progya",
   brandName: "Progya Biswas",
-  title: "BTECH Computer Science Engineer | AI and Robotics Engineer",
+  title: "BTECH Computer Science and Engineering",
   location: "India",
   phone: "+91 9903545853",
   emails: {
@@ -27,7 +27,7 @@ export const socialLinks = {
 
 export const heroContent = {
   greeting: "Hello, I'm",
-  titleHighlight: "BTECH Computer Science Engineer | AI and Robotics Engineer",
+  titleHighlight: "BTECH Computer Science and Engineering",
   subtitle:
     "I’m passionate about technology, data and creative problem solving — building skills across programming, analytics and digital projects.",
   ctaPrimary: { text: "View My Work", href: "#projects" },
@@ -441,7 +441,7 @@ export const softSkillsList = [
   { name: "Problem Solving", icon: "🧩", desc: "Breaking down complex engineering tasks into clean, logical, and modular pieces." },
   { name: "Adaptability", icon: "🌟", desc: "Quick to pick up new frameworks or automation tools." },
   { name: "Creativity", icon: "🎨", desc: "Blending aesthetic design with data presentation to build premium experiences." },
-  { name: "Time Management", icon: "⏰", desc: "Balancing BCA studies, event hosting, and developing robust platforms." }
+  { name: "Time Management", icon: "⏰", desc: "Balancing BTECH studies, event hosting, and developing robust platforms." }
 ];
 
 
@@ -449,7 +449,7 @@ export const projects = [
   {
     id: "robot-navigation",
     number: "01",
-    badge: "🚀 Research Project",
+    badge: "🚀 Robotics and AI Project",
     title: "Reinforcement Learning-Based Multi-Robot Navigation",
     description:
       "Developed an autonomous multi-robot navigation system using Deep Q-Networks (DQN) and Proximal Policy Optimization (PPO). Integrated Waveshare robot chassis, Jetson Nano, RPLiDAR, and camera modules with ROS 2 and Gazebo, implementing sensor fusion and real-time communication architecture.",
@@ -498,7 +498,7 @@ export const projects = [
   {
     id: "monocular-distance",
     number: "03",
-    badge: "🔬 Research Project",
+    badge: "🔬 AI and Computer Vision Project",
     title: "Real-Time Distance Estimation using Monocular Vision",
     description:
       "Developed a real-time object distance estimation system using a single RGB camera and monocular depth estimation algorithms. Optimized the inference pipeline for real-time performance, with potential applications in autonomous systems and assistive technology for visually impaired individuals. Research paper submitted to IEEE ICAITPR 2026 and currently under review.",
@@ -545,7 +545,7 @@ export const projects = [
   {
     id: "energy-aware-shap",
     number: "05",
-    badge: "⚡ Research Project",
+    badge: "⚡ AI and Parallel Computing Project",
     title: "Energy-Aware Parallel Computation of SHAP Explanations",
     description:
       "Benchmarked Serial, Multiprocessing, Threading, Joblib, and Ray execution strategies for TreeSHAP and KernelSHAP, completing 972 runs across 324 configurations. Measured CPU time and energy consumption using CodeCarbon and analyzed workload-dependent trade-offs across Random Forest, XGBoost, SVM-RBF, and Logistic Regression to develop time-optimal, energy-optimal, and balanced CPU scheduling recommendations.",
@@ -570,7 +570,7 @@ export const projects = [
   {
     id: "sound-energy-harvesting",
     number: "06",
-    badge: "🔋 Engineering Project",
+    badge: "🔋 Embedded Systems Project",
     title: "Sound Energy Harvesting System using Piezo Sensors",
     description:
       "Designed a piezoelectric energy harvesting system to convert ambient sound vibrations into usable electrical energy for low-power applications. Implemented energy storage and power optimization circuits to improve energy utilization and overall system efficiency.",

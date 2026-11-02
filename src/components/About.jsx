@@ -224,7 +224,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="relative w-full overflow-hidden bg-[#ff2a2a] px-6 pt-20 pb-40 font-sans md:px-12"
+      className="relative w-full overflow-hidden bg-blue-900 px-6 pt-20 pb-40 font-sans md:px-12"
     >
       {/* =====================================================
           MAIN CONTENT

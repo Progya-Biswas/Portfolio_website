@@ -114,7 +114,7 @@ const Certificates = () => {
     <section
       id="certifications"
       className="
-        bg-[#ff2a2a]
+        bg-blue-900
         pt-20
         pb-28
         px-6
@@ -176,7 +176,7 @@ const Certificates = () => {
 
           <p
             className="
-              text-red-100
+              text-blue-100
               text-base
               md:text-lg
               font-semibold

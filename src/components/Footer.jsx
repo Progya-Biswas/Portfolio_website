@@ -13,9 +13,9 @@ const Footer = () => {
 
         {/* Left */}
         <div className="flex flex-col gap-1">
-          <p>Data Analytics</p>
-          <p>Java · Python · C · C++ · SQL</p>
-          <p>Data Analytics · AI · Cybersecurity</p>
+          <p>Computer Science and Engineering</p>
+          <p>Java · Python · C · C++ </p>
+          <p>AI · Robotics</p>
         </div>
 
         {/* Center */}

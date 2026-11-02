@@ -29,7 +29,7 @@ const ResearchProjectCard = ({ item, index }) => {
         </div>
 
         {/* Project Title */}
-        <h3 className="text-white text-2xl md:text-3xl font-black mb-3 tracking-tight group-hover:text-red-100 transition-colors">
+        <h3 className="text-white text-2xl md:text-3xl font-black mb-3 tracking-tight group-hover:text-blue-100 transition-colors">
           {item.organization}
         </h3>
 
@@ -107,7 +107,7 @@ const ResearchProjects = () => {
   return (
     <section
       id="research-projects"Z
-      className="bg-[#ff2a2a] pt-24 pb-32 px-6 md:px-12 w-full relative overflow-hidden font-sans"
+      className="bg-blue-900 pt-24 pb-32 px-6 md:px-12 w-full relative overflow-hidden font-sans"
     >
       {/* Torn Paper Divider */}
       <div className="absolute top-0 left-0 w-full pointer-events-none z-10 transform -translate-y-[1px] rotate-180">

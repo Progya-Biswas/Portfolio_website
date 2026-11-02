@@ -300,7 +300,7 @@ const TagCard = ({
         ${className}
         ${
           isActive
-            ? 'bg-[#ff2a2a] border-red-400 shadow-[0_20px_50px_rgba(255,42,42,0.4)]'
+            ? 'bg-blue-900 border-blue-400 shadow-[0_20px_50px_rgba(255,42,42,0.4)]'
             : 'bg-white border-gray-200 shadow-[0_15px_40px_rgba(0,0,0,0.06)] hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]'
         }
       `}
@@ -320,13 +320,13 @@ const TagCard = ({
           w-full rounded-[1.5rem] mt-8 p-7
           flex flex-col min-h-[310px]
           transition-colors duration-700
-          ${isActive ? 'bg-red-700/50' : 'bg-[#f4f4f4]'}
+          ${isActive ? 'bg-blue-700/50' : 'bg-[#f4f4f4]'}
         `}
       >
         {/* Number and icon */}
         <div className="flex justify-between items-center mb-4">
           <span className={`text-xl font-bold font-serif italic ${
-            isActive ? 'text-red-200' : 'text-gray-400'
+            isActive ? 'text-blue-200' : 'text-gray-400'
           }`}>
             {number}
           </span>
@@ -345,7 +345,7 @@ const TagCard = ({
 
         {subtitle && (
           <p className={`text-xs font-bold mb-4 ${
-            isActive ? 'text-red-200' : 'text-gray-500'
+            isActive ? 'text-blue-200' : 'text-gray-500'
           }`}>
             {subtitle}
           </p>
@@ -353,7 +353,7 @@ const TagCard = ({
 
         {/* Description */}
         <p className={`text-sm leading-relaxed font-medium ${
-          isActive ? 'text-red-100' : 'text-gray-500'
+          isActive ? 'text-blue-100' : 'text-gray-500'
         }`}>
           {text}
         </p>
@@ -367,7 +367,7 @@ const TagCard = ({
                 className={`text-[10px] font-bold px-2.5 py-1.5
                   rounded-full border transition-colors duration-700 ${
                     isActive
-                      ? 'bg-red-800/40 border-red-300/30 text-white'
+                      ? 'bg-blue-800/40 border-blue-300/30 text-white'
                       : 'bg-white border-gray-200 text-gray-600'
                   }`}
               >
@@ -382,7 +382,7 @@ const TagCard = ({
           <div className={`mt-auto pt-5 text-[9px] tracking-widest
             font-bold ${
               isActive
-                ? 'text-red-200'
+                ? 'text-blue-200'
                 : 'text-gray-400'
             }`}
           >
