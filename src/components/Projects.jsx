@@ -19,7 +19,7 @@ const ProjectCard = ({ project, aosDelay }) => (
     data-aos-delay={aosDelay}
     className={`relative rounded-2xl p-[1px] group transition-all duration-500 ${
       project.isFlagship 
-        ? 'bg-gradient-to-br from-blue-500/50 via-white/10 to-blue-500/30 hover:from-blue-500 hover:via-blue-400/30 hover:to-blue-500/60' 
+        ? 'bg-gradient-to-br from-[#6551A0]/50 via-white/10 to-[#6551A0]/30 hover:from-[#6551A0] hover:via-[#6551A0]/30 hover:to-[#6551A0]/60' 
         : 'bg-white/10 hover:bg-white/20'
     }`}
   >
@@ -30,7 +30,7 @@ const ProjectCard = ({ project, aosDelay }) => (
     }`}>
       {/* Badge */}
       {project.badge && (
-        <span className="inline-block text-xs font-bold tracking-widest uppercase text-blue-400 bg-blue-500/10 px-3 py-1 rounded-full border border-blue-500/20 mb-4">
+        <span className="inline-block text-xs font-bold tracking-widest uppercase text-[#6551A0] bg-[#6551A0]/10 px-3 py-1 rounded-full border border-[#6551A0]/20 mb-4">
           {project.badge}
         </span>
       )}
@@ -51,7 +51,7 @@ const ProjectCard = ({ project, aosDelay }) => (
         {project.techTags.map((tag) => (
           <span 
             key={tag}
-            className="px-3 py-1 text-xs font-bold text-white/70 bg-white/5 rounded-full border border-white/10 hover:bg-blue-500/20 hover:border-blue-500/30 hover:text-blue-300 transition-all duration-300 cursor-default"
+            className="px-3 py-1 text-xs font-bold text-white/70 bg-white/5 rounded-full border border-white/10 hover:bg-[#6551A0]/20 hover:border-[#6551A0]/30 hover:text-[#6551A0] transition-all duration-300 cursor-default"
           >
             {tag}
           </span>
@@ -85,7 +85,7 @@ const ProjectCard = ({ project, aosDelay }) => (
             rel={project.links.demo ? "noopener noreferrer" : undefined}
             className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold transition-all duration-300 ${
               project.links.demo 
-                ? 'bg-blue-600 text-white hover:bg-blue-700 hover:shadow-[0_0_20px_rgba(255,42,42,0.4)]' 
+                ? 'bg-[#6551A0] text-white hover:bg-[#6551A0]/80 hover:shadow-[0_0_20px_rgba(101,81,160,0.4)]' 
                 : 'bg-white/5 text-white/40 border border-white/10 cursor-not-allowed'
             }`}
           >
@@ -102,7 +102,7 @@ const ProjectCard = ({ project, aosDelay }) => (
             rel={project.links.frontendDemo ? "noopener noreferrer" : undefined}
             className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold transition-all duration-300 ${
               project.links.frontendDemo
-                ? 'bg-[#ff2a2a] text-white hover:bg-blue-600 hover:shadow-[0_0_20px_rgba(255,42,42,0.4)]'
+                ? 'bg-[#6551A0] text-white hover:bg-[#6551A0]/80 hover:shadow-[0_0_20px_rgba(101,81,160,0.4)]'
                 : 'bg-white/5 text-white/40 border border-white/10 cursor-not-allowed'
             }`}
           >

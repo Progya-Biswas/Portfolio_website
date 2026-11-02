@@ -24,7 +24,7 @@ const Preloader = () => {
             duration: 1.1,
             ease: [0.76, 0, 0.24, 1],
           }}
-          className="fixed inset-0 z-[100000] w-full h-screen bg-blue-900 flex items-center justify-center"
+          className="fixed inset-0 z-[100000] w-full h-screen bg-[#6551A0] flex items-center justify-center"
         >
           <motion.h1
             initial={{
@@ -42,7 +42,7 @@ const Preloader = () => {
             className="text-white font-black tracking-[-0.05em] text-5xl sm:text-6xl md:text-8xl"
           >
             Progya Paromita Biswas
-            <span className="text-black">.</span>
+            <span className="text-[#6551A0]">.</span>
           </motion.h1>
         </motion.div>
       )}

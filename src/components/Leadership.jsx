@@ -12,8 +12,8 @@ const LeadershipCard = ({ item, index }) => {
     >
       <div
         className="bg-[#0d1011]/90 backdrop-blur-md border border-white/10 rounded-2xl p-5 md:p-6
-        hover:border-blue-500/50
-        hover:shadow-[0_15px_40px_rgba(255,42,42,0.12)]
+        hover:border-[#6551A0]/50
+        hover:shadow-[0_15px_40px_rgba(101,81,160,0.12)]
         hover:-translate-y-1
         transition-all duration-500"
       >
@@ -21,13 +21,13 @@ const LeadershipCard = ({ item, index }) => {
 
           {/* Number */}
           <div className="flex-shrink-0">
-            <span className="text-blue-500 text-3xl md:text-4xl font-black font-mono">
+            <span className="text-[#6551A0] text-3xl md:text-4xl font-black font-mono">
               {String(index + 1).padStart(2, "0")}
             </span>
           </div>
 
           {/* Divider */}
-          <div className="w-px bg-blue-500/40 flex-shrink-0" />
+          <div className="w-px bg-[#6551A0]/40 flex-shrink-0" />
 
           {/* Content */}
           <div className="flex-1">
@@ -38,7 +38,7 @@ const LeadershipCard = ({ item, index }) => {
               </h3>
 
               <span
-                className="border border-blue-500 text-blue-500
+                className="border border-[#6551A0] text-[#6551A0]
                 text-[8px] md:text-[9px] font-black
                 tracking-widest uppercase
                 px-2.5 py-1 rounded-full whitespace-nowrap"
@@ -49,7 +49,7 @@ const LeadershipCard = ({ item, index }) => {
 
             {item.role && (
               <p
-                className="text-blue-500 text-[9px] md:text-[10px]
+                className="text-[#6551A0] text-[9px] md:text-[10px]
                 font-black tracking-widest uppercase mb-3"
               >
                 {item.role}
@@ -78,12 +78,12 @@ const Leadership = () => {
       {/* Background glows */}
       <div
         className="absolute -top-40 -left-40 w-[500px] h-[500px]
-        bg-blue-600/10 rounded-full blur-[150px] pointer-events-none"
+        bg-[#6551A0]/10 rounded-full blur-[150px] pointer-events-none"
       />
 
       <div
         className="absolute -bottom-40 -right-40 w-[500px] h-[500px]
-        bg-blue-600/10 rounded-full blur-[150px] pointer-events-none"
+        bg-[#6551A0]/10 rounded-full blur-[150px] pointer-events-none"
       />
 
       <div className="max-w-7xl mx-auto relative z-10">
@@ -122,7 +122,7 @@ const Leadership = () => {
                 Leadership
               </h3>
 
-              <div className="h-px bg-blue-500 flex-1" />
+              <div className="h-px bg-[#6551A0] flex-1" />
             </div>
 
             {leadershipList.map((item, index) => (
@@ -145,7 +145,7 @@ const Leadership = () => {
             {/* Ambient glow */}
             <div
               className="absolute inset-10 rounded-full
-              bg-blue-600/15 blur-[110px] pointer-events-none"
+              bg-[#6551A0]/15 blur-[110px] pointer-events-none"
             />
 
             <HumanoidRobot3D />

@@ -307,7 +307,7 @@ Submitted from: Portfolio Contact Form`;
       <div className="relative z-10 w-full flex justify-end items-end">
         <div
           data-aos="fade-up"
-          className="bg-blue-900 w-full md:w-[85%] lg:w-[75%] p-6 sm:p-8 md:p-14 lg:p-16 text-white flex flex-col justify-between shadow-2xl"
+          className="bg-[#6551A0] w-full md:w-[85%] lg:w-[75%] p-6 sm:p-8 md:p-14 lg:p-16 text-white flex flex-col justify-between shadow-2xl"
         >
           {/* =====================================
               HEADER
@@ -541,7 +541,7 @@ Submitted from: Portfolio Contact Form`;
                   className={`p-4 rounded-xl text-sm font-medium transition-all duration-300 flex items-start gap-3 ${
                     status === 'success'
                       ? 'bg-emerald-950/70 border border-emerald-400 text-emerald-100 shadow-[0_0_20px_rgba(16,185,129,0.3)]'
-                      : 'bg-blue-950/70 border border-blue-400/80 text-blue-100'
+                      : 'bg-[#6551A0]_950/70 border border-[#6551A0]/80 text-[#6551A0]'
                   }`}
                 >
                   <span className="text-lg">
@@ -613,8 +613,8 @@ Submitted from: Portfolio Contact Form`;
                           : status === 'success'
                           ? 'bg-emerald-600 border-emerald-400 text-white shadow-[0_0_25px_rgba(16,185,129,0.5)]'
                           : status === 'error'
-                          ? 'bg-blue-900 border-blue-500 text-white'
-                          : 'bg-transparent hover:bg-white hover:text-blue-900 active:scale-95'
+                          ? 'bg-[#6551A0] border-[#6551A0] text-white'
+                          : 'bg-transparent hover:bg-white hover:text-[#6551A0] active:scale-95'
                       }
                     `}
                   >

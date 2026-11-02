@@ -109,7 +109,7 @@ export default function HumanoidRobot3D() {
       {/* Blue ambient glow */}
       <div
         className="absolute inset-10 rounded-full
-        bg-blue-600/15 blur-[110px] pointer-events-none"
+        bg-[#6551A0]/15 blur-[110px] pointer-events-none"
       />
 
       {/* Robot viewer */}
@@ -137,7 +137,7 @@ export default function HumanoidRobot3D() {
             }}
           />
         ) : loadError ? (
-          <p className="text-blue-400 text-sm text-center">
+          <p className="text-[#7663A8] text-sm text-center">
             Unable to load robot images.
             <br />
             Check the image folder and filenames.

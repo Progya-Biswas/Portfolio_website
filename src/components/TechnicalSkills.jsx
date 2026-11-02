@@ -76,17 +76,17 @@ const SkillPill = ({ skill }) => {
         h-[46px]
         px-4 sm:px-6
         rounded-full
-        bg-gradient-to-r from-blue-600 via-blue-500 to-blue-600
+        bg-gradient-to-r from-[#7663A8] via-[#7663A8] to-[#7663A8]
         text-white
         font-bold
         text-xs sm:text-sm
         tracking-wide
-        shadow-[0_8px_20px_rgba(255,42,42,0.25)]
-        border border-blue-400/30
+        shadow-[0_8px_20px_rgba(59,130,246,0.25)]
+        border border-[#7663A8]/30
         overflow-hidden
         transition-all duration-300
         hover:scale-105
-        hover:shadow-[0_10px_30px_rgba(255,42,42,0.45)]
+        hover:shadow-[0_8px_20px_rgba(37,99,235,0.35)]
       "
     >
       {/* Left cylindrical highlight */}
@@ -95,8 +95,8 @@ const SkillPill = ({ skill }) => {
           absolute left-0 top-0
           w-6 sm:w-8 h-full
           rounded-full
-          bg-blue-700/60
-          border-r border-blue-300/20
+          bg-[#7663A8]/60
+          border-r border-[#7663A8]/20
         "
       />
 
@@ -106,8 +106,8 @@ const SkillPill = ({ skill }) => {
           absolute right-0 top-0
           w-6 sm:w-8 h-full
           rounded-full
-          bg-blue-700/60
-          border-l border-blue-300/20
+          bg-[#7663A8]/60
+          border-l border-[#7663A8]/20
         "
       />
 
@@ -132,10 +132,10 @@ const SkillCard = ({ category, index }) => {
         p-7
         min-h-[300px]
         transition-all duration-500
-        hover:border-blue-500/30
+        hover:border-[#7663A8]/30
         hover:bg-white/[0.04]
         hover:-translate-y-1
-        hover:shadow-[0_20px_50px_rgba(255,42,42,0.08)]
+        hover:shadow-[0_20px_50px_rgba(255,52,42,0.08)]
       "
     >
       {/* Icon */}
@@ -144,13 +144,13 @@ const SkillCard = ({ category, index }) => {
           w-12 h-12
           flex items-center justify-center
           rounded-xl
-          text-blue-500
+          text-[#7663A8]
           text-2xl
           font-black
           mb-5
-          border border-blue-500/20
-          bg-blue-500/5
-          group-hover:bg-blue-500/10
+          border border-[#7663A8]/20
+          bg-[#7663A8]/5
+          group-hover:bg-[#7663A8]/10
           transition-all duration-300
         "
       >
@@ -219,7 +219,7 @@ const TechnicalSkills = () => {
           left-[-50px] md:left-[-150px]
           w-[250px] md:w-[450px]
           h-[250px] md:h-[450px]
-          bg-blue-600/10
+          bg-[#7663A8]/10
           rounded-full
           blur-[80px] md:blur-[140px]
           pointer-events-none
@@ -233,7 +233,7 @@ const TechnicalSkills = () => {
           right-[-50px] md:right-[-150px]
           w-[250px] md:w-[450px]
           h-[250px] md:h-[450px]
-          bg-blue-600/10
+          bg-[#7663A8]/10
           rounded-full
           blur-[80px] md:blur-[140px]
           pointer-events-none

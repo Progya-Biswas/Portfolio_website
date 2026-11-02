@@ -31,7 +31,7 @@ const Navbar = () => {
     <nav
       className={`fixed top-0 left-0 z-50 w-full transition-all duration-300 ${
         isOpen
-          ? 'bg-blue-900 py-3 sm:py-4 shadow-xl'
+          ? 'bg-[#6551A0] py-3 sm:py-4 shadow-xl'
           : isScrolled
           ? 'bg-black/80 backdrop-blur-md py-3 sm:py-4 border-b border-white/10 shadow-lg'
           : 'bg-transparent py-4 sm:py-6'
@@ -122,7 +122,7 @@ const Navbar = () => {
       <div
         className={`absolute left-0 top-full w-full overflow-hidden transition-all duration-300 md:hidden ${
           isOpen
-            ? 'max-h-96 bg-blue-900 py-4 opacity-100 shadow-2xl'
+            ? 'max-h-96 bg-[#6551A0] py-4 opacity-100 shadow-2xl'
             : 'max-h-0 bg-transparent opacity-0'
         }`}
       >
@@ -144,7 +144,7 @@ const Navbar = () => {
             <a
               href={hireMeMailto}
               onClick={() => setIsOpen(false)}
-              className="inline-block w-full rounded-full bg-white px-6 py-3 text-center font-black text-blue-500 shadow-lg transition-colors hover:bg-black hover:text-white"
+              className="inline-block w-full rounded-full bg-white px-6 py-3 text-center font-black text-[#6551A0] shadow-lg transition-colors hover:bg-black hover:text-white"
             >
               Hire Me
             </a>
